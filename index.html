@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nikhil | Web Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap');
+
+        body {
+            font-family: 'Jost', sans-serif;
+            background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 13px, rgba(0, 0, 0, 0.03) 13px, rgba(0, 0, 0, 0.03) 24px, transparent 24px, transparent 62px, rgba(0, 0, 0, 0.03) 62px, rgba(0, 0, 0, 0.03) 96px), repeating-radial-gradient(circle at center center, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px, rgb(255, 255, 255) 18px, rgb(255, 255, 255) 28px, rgb(255, 255, 255) 28px, rgb(255, 255, 255) 32px);
+            background-size: 21px 21px;
+        }
+
+        /* Social Bar */
+        .social_bar a {
+            transition: 0.3s;
+        }
+
+        .social_bar a :hover {
+            color: #f14668 !important;
+        }
+
+        .social_bar {
+            position: fixed;
+            top: 5px;
+            right: 10px;
+        }
+
+        /* Projects */
+        .projects li {
+            margin-bottom: 5px;
+        }
+
+        .projects a {
+            color: #4a4a4a;
+        }
+
+        .projects a b {
+            background: #4a4a4a;
+            color: white;
+            padding: 0 6px;
+        }
+
+        .projects a:hover {
+            color: #f14668
+        }
+
+        /* Footer */
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 5px;
+            width: 100%;
+        }
+    </style>
+
+    <!-- Social Bar -->
+    <div class="subtitle is-3 social_bar">
+        Pssstt!
+        <a href="https://github.com/nikhilkadyan" target="_blank" class="has-text-grey">
+            <i class="fab fa-github-square"></i>
+        </a>
+        <a href="https://twitter.com/kadyanikhil" target="_blank" class="has-text-grey">
+            <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.facebook.com/nikhilkadyan000" target="_blank" class="has-text-grey">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/nikhilkadyan/" target="_blank" class="has-text-grey">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+
+    <!-- Main Landing Section -->
+    <div class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <!-- SubTitle -->
+                <h2 class="subtitle is-5">A full stack developer.</h2>
+                <!-- Title -->
+                <h1 class="title is-2">I'm <b class="has-text-danger">Nikhil</b> Kadyan.</h1>
+                <p class="subtitle is-6">Here is some of my work so that you can assess me :)</p>
+                <!-- Description -->
+                <br>
+                <ul class="projects">
+                    <li>
+                        <a href="https://stackblitz.com/edit/et-cms" target="_blank">
+                            <b>CMS | Email Templates</b> : Angular + Firebase
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackblitz.com/edit/html2canvas-angular" target="_blank">
+                            <b>Location Tracker App</b> : Ionic + Angular
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nikhilkadyan/LumenProducstApi" target="_blank">
+                            <b>Lumen Products API</b> : Lumen
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackblitz.com/edit/html2canvas-angular" target="_blank">
+                            <b>Angular - Html2Canvas</b> : Angular
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackblitz.com/edit/angularfire-auth-service" target="_blank">
+                            <b>Authentication Template</b> : Angular + Firebase
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nikhilkadyan/LaravelResourceApi" target="_blank">
+                            <b>Laravel Resource API</b> : Laravel
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://stackblitz.com/edit/expensekd" target="_blank">
+                            <b>Expense Manger</b> : Angular + Firebase
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Quote -->
+    <footer class="has-text-centered">
+        <small>A person can achieve anything by being simple and humble.</small>
+    </footer>
+</body>
+
+</html>
