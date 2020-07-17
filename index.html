@@ -15,42 +15,6 @@
 
         body {
             font-family: 'Jost', sans-serif;
-            background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 13px, rgba(0, 0, 0, 0.03) 13px, rgba(0, 0, 0, 0.03) 24px, transparent 24px, transparent 62px, rgba(0, 0, 0, 0.03) 62px, rgba(0, 0, 0, 0.03) 96px), repeating-radial-gradient(circle at center center, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 14px, rgb(255, 255, 255) 18px, rgb(255, 255, 255) 18px, rgb(255, 255, 255) 28px, rgb(255, 255, 255) 28px, rgb(255, 255, 255) 32px);
-            background-size: 21px 21px;
-        }
-
-        /* Social Bar */
-        .social_bar a {
-            transition: 0.3s;
-        }
-
-        .social_bar a :hover {
-            color: #f14668 !important;
-        }
-
-        .social_bar {
-            position: fixed;
-            top: 5px;
-            right: 10px;
-        }
-
-        /* Projects */
-        .projects li {
-            margin-bottom: 5px;
-        }
-
-        .projects a {
-            color: #4a4a4a;
-        }
-
-        .projects a b {
-            background: #4a4a4a;
-            color: white;
-            padding: 0 6px;
-        }
-
-        .projects a:hover {
-            color: #f14668
         }
 
         /* Footer */
@@ -62,77 +26,159 @@
         }
     </style>
 
-    <!-- Social Bar -->
-    <div class="subtitle is-3 social_bar">
-        Pssstt!
-        <a href="https://github.com/nikhilkadyan" target="_blank" class="has-text-grey">
-            <i class="fab fa-github-square"></i>
-        </a>
-        <a href="https://twitter.com/kadyanikhil" target="_blank" class="has-text-grey">
-            <i class="fab fa-twitter-square"></i>
-        </a>
-        <a href="https://www.facebook.com/nikhilkadyan000" target="_blank" class="has-text-grey">
-            <i class="fab fa-facebook-square"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/nikhilkadyan/" target="_blank" class="has-text-grey">
-            <i class="fab fa-linkedin"></i>
-        </a>
-    </div>
-
     <!-- Main Landing Section -->
-    <div class="hero is-fullheight">
+    <div class="hero is-medium is-dark">
         <div class="hero-body">
             <div class="container">
-                <!-- SubTitle -->
-                <h2 class="subtitle is-5">A full stack developer.</h2>
-                <!-- Title -->
-                <h1 class="title is-2">I'm <b class="has-text-danger">Nikhil</b> Kadyan.</h1>
-                <p class="subtitle is-6">Here is some of my work so that you can assess me :)</p>
-                <!-- Description -->
-                <br>
-                <ul class="projects">
-                    <li>
-                        <a href="https://stackblitz.com/edit/et-cms" target="_blank">
-                            <b>CMS | Email Templates</b> : Angular + Firebase
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackblitz.com/edit/html2canvas-angular" target="_blank">
-                            <b>Location Tracker App</b> : Ionic + Angular
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/nikhilkadyan/LumenProducstApi" target="_blank">
-                            <b>Lumen Products API</b> : Lumen
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackblitz.com/edit/html2canvas-angular" target="_blank">
-                            <b>Angular - Html2Canvas</b> : Angular
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackblitz.com/edit/angularfire-auth-service" target="_blank">
-                            <b>Authentication Template</b> : Angular + Firebase
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/nikhilkadyan/LaravelResourceApi" target="_blank">
-                            <b>Laravel Resource API</b> : Laravel
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackblitz.com/edit/expensekd" target="_blank">
-                            <b>Expense Manger</b> : Angular + Firebase
-                        </a>
-                    </li>
-                </ul>
+                <div class=" has-text-centered">
+                    <!-- Title -->
+                    <h1 class="title is-2">Hi I'm <b class="has-text-danger">Nikhil</b> Kadyan.</h1>
+                    <!-- SubTitle -->
+                    <h2 class="subtitle is-5 is-uppercase">A full stack developer.</h2>
+                </div>
             </div>
         </div>
     </div>
-    <!-- Quote -->
+
+    <div class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-multiline">
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <b>CMS | Email Templates</b>: A complete CMS made with power of angular and
+                                    firebase.
+                                    <br>
+                                    <a>@CMS</a>.
+                                    <a href="#">#angular</a> <a href="#">#firebase</a>
+                                    <br>
+                                    <a class="button is-small is-outlined is-link is-pulled-right"
+                                        href="https://etcms.nikhilkadyan.com/" target="_blank">
+                                        Live Demo
+                                    </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <b>Precisely (Backend Only)</b>: A Live Location Tracking app prototype made with Ionic 5.
+                                    <br>
+                                    <a>@BackEnd</a>.
+                                    <a href="#">#laravel</a> <a href="#">#api</a>
+                                    <br>
+                                    <a class="button is-small is-outlined is-link is-pulled-right"
+                                        href="http://app.precisely.co.in/" target="_blank">
+                                        Visit Platform
+                                    </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <b>Location Tracker App</b>: A Live Location Tracking app prototype made with Ionic 5.
+                                    <br>
+                                    <a>@MoboApp</a>.
+                                    <a href="#">#ionic</a> <a href="#">#angular</a>
+                                    <br>
+                                    <a class="button is-small is-outlined is-link is-pulled-right"
+                                        href="https://github.com/nikhilkadyan/ionicLocationTracker" target="_blank">
+                                        View Source
+                                    </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <b>Lumen Products API</b>: A full CRUD Products API made with help of Lumen framework.
+                                    <br>
+                                    <a>@CRUD</a>.
+                                    <a href="#">#lumen</a> <a href="#">#api</a>
+                                    <br>
+                                    <a class="button is-small is-outlined is-link is-pulled-right"
+                                        href="https://github.com/nikhilkadyan/LumenProducstApi" target="_blank">
+                                        View Source
+                                    </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <b>Authentication Template</b>: A Google Authentication boilerplate for building projects.
+                                    <br>
+                                    <a>@AUTH</a>.
+                                    <a href="#">#angular</a> <a href="#">#auth</a>
+                                    <br>
+                                    <a class="button is-small is-outlined is-link is-pulled-right"
+                                        href="https://stackblitz.com/edit/angularfire-auth-service" target="_blank">
+                                        View Source
+                                    </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <b>Angular - Html2Canvas</b>: Boilerplate for saving your HTML sections/page to images.
+                                    <br>
+                                    <a>@Boilerplate</a>.
+                                    <a href="#">#html2canvas</a> <a href="#">#angular</a>
+                                    <br>
+                                    <a class="button is-small is-outlined is-link is-pulled-right"
+                                        href="https://stackblitz.com/edit/html2canvas-angular" target="_blank">
+                                        View Source
+                                    </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
     <footer class="has-text-centered">
-        <small>A person can achieve anything by being simple and humble.</small>
+        <p class="subtitle is-3">
+            <a href="https://github.com/nikhilkadyan" target="_blank" class="has-text-grey">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a href="https://twitter.com/kadyanikhil" target="_blank" class="has-text-grey">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://www.facebook.com/nikhilkadyan000" target="_blank" class="has-text-grey">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nikhilkadyan/" target="_blank" class="has-text-grey">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </p>
     </footer>
 </body>
 
